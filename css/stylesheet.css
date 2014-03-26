@@ -1,19 +1,37 @@
 body
 {
-	height: 1000px;
+	height: 4000px;
 	width: 1000px;
 }
 
 #house
 {
-	height: 500px;
-	width: 500px;
+	height: 25%;
+	width: 100%;
 	background-image: url("../imgs/house.jpg");
+	background-attachment: fixed;
 }
 
 #flag
 {
-	height: 500px;
-	width: 500px;
+	height: 25%;
+	width: 100%;
 	background-image: url("../imgs/americanFlag.jpg");
+	background-attachment: fixed;
+}
+
+#tree
+{
+	height: 25%;
+	width: 100%;
+	background-image: url("../imgs/tree.jpg");
+	background-attachment: fixed;
+}
+
+#flowers
+{
+	height: 25%;
+	width: 100%;
+	background-image: url("../imgs/flowers.jpg");
+	background-attachment: fixed;
 }
