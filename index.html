@@ -3,18 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/jquery.stellar/jquery.stellar.js"></script>
   <title>National Day of Civic Hacking</title>
 </head>
 <body>
-	<ul id="scene">
-		<li class="layer" data-depth="0.0"><img src="imgs/americanFlag.jpg" height="500" width="200"></li>
-		<li class="layer" data-depth="0.20"><img src="imgs/clovisSign.jpg"></li>
-	</ul>
-	<script src="javascripts/parallax.js"></script>
-	<script type="text/javascript">
-	var scene = document.getElementById('scene');
-	var parallax = new Parallax(scene);
-	</script>
+
+  <div id="flag" data-stellar-ratio="1"></div>
+  <div id="house" data-stellar-ratio="2"></div>
+  <div id="test"></div>
+
+   <script>
+  	$(function() {
+  		$.stellar();
+  	});
+  </script>
+
 </body>
 </html>
