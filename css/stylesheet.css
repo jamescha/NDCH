@@ -1,15 +1,32 @@
 body
 {
-	height: 4000px;
-	width: 1000px;
+	height: 2000px;
+	width: 100%;
 }
 
-#house
+header
 {
-	height: 25%;
+	text-align: center;
+	font-size: 50px;
 	width: 100%;
-	background-image: url("../imgs/house.jpg");
-	background-attachment: fixed;
+	background-color: black;
+	position: fixed;
+	color: white;
+	top:0px;
+	left: 0;
+	z-index: 1;
+}
+
+header nav a
+{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+header nav a:hover
+{
+	text-decoration: underline;
 }
 
 #flag
@@ -20,18 +37,37 @@ body
 	background-attachment: fixed;
 }
 
-#tree
+#picture1
 {
 	height: 25%;
 	width: 100%;
-	background-image: url("../imgs/tree.jpg");
+	background-image: url("../imgs/1.jpg");
 	background-attachment: fixed;
 }
 
-#flowers
+#picture2
 {
 	height: 25%;
 	width: 100%;
-	background-image: url("../imgs/flowers.jpg");
+	background-image: url("../imgs/2.jpg");
 	background-attachment: fixed;
+}
+
+#picture3
+{
+	height: 25%;
+	width: 100%;
+	background-image: url("../imgs/3.jpg");
+	background-attachment: fixed;
+}
+
+.content
+{
+	height: 100%;
+	width: 75%;
+	position: relative;
+	left: 150px;
+	top: 100px;
+	background-color: white;
+	z-index: -.5;
 }
