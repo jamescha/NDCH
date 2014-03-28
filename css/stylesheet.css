@@ -35,6 +35,8 @@ header nav a:hover
 	width: 100%;
 	background-image: url("../imgs/americanFlag.jpg");
 	background-attachment: fixed;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 #picture1
@@ -43,6 +45,8 @@ header nav a:hover
 	width: 100%;
 	background-image: url("../imgs/1.jpg");
 	background-attachment: fixed;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 #picture2
@@ -51,6 +55,8 @@ header nav a:hover
 	width: 100%;
 	background-image: url("../imgs/2.jpg");
 	background-attachment: fixed;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 #picture3
@@ -59,6 +65,18 @@ header nav a:hover
 	width: 100%;
 	background-image: url("../imgs/3.jpg");
 	background-attachment: fixed;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#top
+{
+	height: 75%;
+	width: 75%;
+	position: relative;
+	left: 150px;
+	top: 175px;
+	background-color: rgba(255,255,255,0.7);
 }
 
 .content
@@ -67,7 +85,5 @@ header nav a:hover
 	width: 75%;
 	position: relative;
 	left: 150px;
-	top: 100px;
-	background-color: white;
-	z-index: -.5;
+	background-color: rgba(255,255,255,0.7);
 }
